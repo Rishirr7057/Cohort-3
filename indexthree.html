@@ -1,0 +1,422 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="HTML Tags Demo">
+
+    <title>All HTML Tags Demo</title>
+
+    <style>
+        body{
+            font-family: Arial, sans-serif;
+            margin:20px;
+        }
+
+        section{
+            border:1px solid #ddd;
+            padding:15px;
+            margin-bottom:20px;
+        }
+
+        table{
+            width:100%;
+            border-collapse: collapse;
+        }
+
+        table,th,td{
+            border:1px solid black;
+        }
+
+        th,td{
+            padding:10px;
+        }
+
+        img{
+            max-width:200px;
+        }
+    </style>
+
+</head>
+
+<body>
+
+    <!-- HEADER -->
+    <header>
+        <h1>HTML All Tags Demonstration</h1>
+
+        <nav>
+            <a href="#">Home</a> |
+            <a href="#">About</a> |
+            <a href="#">Contact</a>
+        </nav>
+    </header>
+
+    <hr>
+
+    <!-- TEXT FORMATTING -->
+    <section>
+
+        <h2>Text Formatting Tags</h2>
+
+        <p>This is a paragraph.</p>
+
+        <b>Bold Text</b><br>
+        <strong>Strong Text</strong><br>
+        <i>Italic Text</i><br>
+        <em>Emphasized Text</em><br>
+        <u>Underlined Text</u><br>
+
+        <mark>Highlighted Text</mark><br>
+
+        <small>Small Text</small><br>
+
+        H<sub>2</sub>O <br>
+
+        X<sup>2</sup> + Y<sup>2</sup><br>
+
+        <del>Deleted Text</del><br>
+
+        <ins>Inserted Text</ins><br>
+
+        <abbr title="Hyper Text Markup Language">HTML</abbr><br>
+
+        <q>Short Quote</q><br>
+
+        <blockquote>
+            This is a blockquote example.
+        </blockquote>
+
+        <cite>Book Name</cite><br>
+
+        <code>
+            console.log("Hello");
+        </code>
+
+        <pre>
+This text
+keeps formatting.
+        </pre>
+
+        <kbd>Ctrl + C</kbd><br>
+
+        <samp>Program Output</samp><br>
+
+        <var>x</var> = 10
+
+    </section>
+
+    <!-- LISTS -->
+    <section>
+
+        <h2>Lists</h2>
+
+        <h3>Unordered List</h3>
+
+        <ul>
+            <li>Apple</li>
+            <li>Mango</li>
+            <li>Banana</li>
+        </ul>
+
+        <h3>Ordered List</h3>
+
+        <ol>
+            <li>Step 1</li>
+            <li>Step 2</li>
+            <li>Step 3</li>
+        </ol>
+
+        <h3>Description List</h3>
+
+        <dl>
+            <dt>HTML</dt>
+            <dd>Markup Language</dd>
+
+            <dt>CSS</dt>
+            <dd>Styling Language</dd>
+        </dl>
+
+    </section>
+
+    <!-- IMAGE -->
+    <section>
+
+        <h2>Image Tag</h2>
+
+        <figure>
+
+            <img src="https://via.placeholder.com/200"
+                alt="Sample Image">
+
+            <figcaption>
+                Sample Image Caption
+            </figcaption>
+
+        </figure>
+
+    </section>
+
+    <!-- TABLE -->
+    <section>
+
+        <h2>Table Example</h2>
+
+        <table>
+
+            <caption>Student Data</caption>
+
+            <thead>
+                <tr>
+                    <th>Name</th>
+                    <th>Age</th>
+                </tr>
+            </thead>
+
+            <tbody>
+                <tr>
+                    <td>Rishi</td>
+                    <td>22</td>
+                </tr>
+
+                <tr>
+                    <td>Aman</td>
+                    <td>21</td>
+                </tr>
+            </tbody>
+
+            <tfoot>
+                <tr>
+                    <td colspan="2">
+                        End of Table
+                    </td>
+                </tr>
+            </tfoot>
+
+        </table>
+
+    </section>
+
+    <!-- FORM -->
+    <section>
+
+        <h2>Form Elements</h2>
+
+        <form>
+
+            <label>Name:</label>
+            <input type="text">
+            <br><br>
+
+            <label>Email:</label>
+            <input type="email">
+            <br><br>
+
+            <label>Password:</label>
+            <input type="password">
+            <br><br>
+
+            <label>Gender:</label>
+
+            <input type="radio" name="g">Male
+            <input type="radio" name="g">Female
+
+            <br><br>
+
+            <label>Skills:</label>
+
+            <input type="checkbox">HTML
+            <input type="checkbox">CSS
+            <input type="checkbox">JS
+
+            <br><br>
+
+            <label>Country:</label>
+
+            <select>
+
+                <option>India</option>
+                <option>USA</option>
+                <option>Canada</option>
+
+            </select>
+
+            <br><br>
+
+            <textarea rows="4" cols="30"></textarea>
+
+            <br><br>
+
+            <button type="submit">
+                Submit
+            </button>
+
+        </form>
+
+    </section>
+
+    <!-- AUDIO -->
+    <section>
+
+        <h2>Audio Tag</h2>
+
+        <audio controls>
+            <source src="audio.mp3" type="audio/mpeg">
+        </audio>
+
+    </section>
+
+    <!-- VIDEO -->
+    <section>
+
+        <h2>Video Tag</h2>
+
+        <video width="300" controls>
+
+            <source src="video.mp4" type="video/mp4">
+
+        </video>
+
+    </section>
+
+    <!-- IFRAME -->
+    <section>
+
+        <h2>Iframe Example</h2>
+
+        <iframe
+            src="https://www.wikipedia.org"
+            width="500"
+            height="300">
+        </iframe>
+
+    </section>
+
+    <!-- DETAILS -->
+    <section>
+
+        <h2>Details and Summary</h2>
+
+        <details>
+
+            <summary>
+                Click Me
+            </summary>
+
+            <p>
+                Hidden Content Appears Here.
+            </p>
+
+        </details>
+
+    </section>
+
+    <!-- SVG -->
+    <section>
+
+        <h2>SVG Example</h2>
+
+        <svg width="200" height="100">
+
+            <circle
+                cx="50"
+                cy="50"
+                r="40"
+                stroke="black"
+                fill="yellow">
+            </circle>
+
+        </svg>
+
+    </section>
+
+    <!-- CANVAS -->
+    <section>
+
+        <h2>Canvas Example</h2>
+
+        <canvas
+            id="myCanvas"
+            width="200"
+            height="100"
+            style="border:1px solid black;">
+        </canvas>
+
+    </section>
+
+    <!-- ARTICLE -->
+    <main>
+
+        <section>
+
+            <article>
+
+                <h2>Article Example</h2>
+
+                <p>
+                    This is an article section.
+                </p>
+
+            </article>
+
+            <aside>
+
+                <h3>Aside</h3>
+
+                <p>
+                    Sidebar Related Content.
+                </p>
+
+            </aside>
+
+        </section>
+
+    </main>
+
+    <!-- ADDRESS -->
+    <section>
+
+        <h2>Address Tag</h2>
+
+        <address>
+            Rishi Kumar Gupta<br>
+            Delhi, India<br>
+            Email: example@gmail.com
+        </address>
+
+    </section>
+
+    <!-- FOOTER -->
+    <footer>
+
+        <hr>
+
+        <p>
+            Copyright © 2026
+        </p>
+
+    </footer>
+
+    <!-- SCRIPT -->
+    <script>
+
+        const canvas =
+            document.getElementById("myCanvas");
+
+        const ctx =
+            canvas.getContext("2d");
+
+        ctx.fillStyle = "blue";
+
+        ctx.fillRect(
+            20,
+            20,
+            100,
+            50
+        );
+
+    </script>
+
+</body>
+</html>
